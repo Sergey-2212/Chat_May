@@ -64,7 +64,7 @@ public class ChatController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        List<String> contnames = List.of("Murzick", "Barsik", "Tuzick", "Broadcast");
+        List<String> contnames = List.of("Сorben Dallas", "Lilu Dallas", "Tuzick", "Broadcast");
         contacts.setItems(FXCollections.observableList(contnames));
         contacts.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
